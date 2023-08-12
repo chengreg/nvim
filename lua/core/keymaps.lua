@@ -15,6 +15,9 @@ keymap.set("v", "K", ":m '>-2<CR>gv=gv")
 keymap.set("n", "<leader>sv", "<C-w>v")
 keymap.set("n", "<leader>sh", "<C-w>s")
 
+-- 取消高亮
+keymap.set("n", "leader>nh", ":nohl<CR>")
+
 -- ----------------插件-----------------
 -- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
